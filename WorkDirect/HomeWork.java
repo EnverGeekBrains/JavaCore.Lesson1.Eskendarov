@@ -7,7 +7,7 @@
    препятствий, метод, который будет просить команду пройти всю полосу.
 */
 
-package ru.eskendarov.ea.HomeWork_1;
+package ru.eskendarov.ea.homework;
 
 public class HomeWork {
     public static void main(String[] args) {
