@@ -1,4 +1,4 @@
-package ru.eskendarov.ea.HomeWork_1;
+package ru.eskendarov.ea.homework;
 
 class Course {
     private int[] obs;
@@ -18,8 +18,6 @@ class Course {
             if (st.opp[i] > max) {
                 st.idWinner[i] = 1;
             } // если возможность превышает препятствие, записываем победителя
-
         }
     }
 }
-
