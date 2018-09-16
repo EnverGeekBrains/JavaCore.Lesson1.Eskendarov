@@ -1,4 +1,4 @@
-package ru.eskendarov.ea.HomeWork_1;
+package ru.eskendarov.ea.homework;
 
 class Team {
     int[] opp;
@@ -20,25 +20,20 @@ class Team {
     void showResultsWin() {
         System.out.println("Information about winners:");
         for (int i = 0; i < team.length; i++) {
-
             if (idWinner[i] != 0) {
                 System.out.println(team[i] + " did It!");
             }
-
         }
-
     }
 
     void showResults() {
         System.out.println("Information about all players:");
         for (int i = 0; i < team.length; i++) {
-
             if (idWinner[i] != 0) {
                 System.out.println(team[i] + " did It!");
-            } else System.out.println(team[i] + " didn't It!");
-
+            } else {
+                System.out.println(team[i] + " didn't It!");
+            }
         }
-
     }
-
 }
